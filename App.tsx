@@ -11,10 +11,6 @@ export default function App(): JSX.Element {
   )
 }
 
-const foo = () => {
-  return ''
-}
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
