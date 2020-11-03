@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
+import { Ball } from './components/Ball'
 
 export default function App(): JSX.Element {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
+      <Ball />
     </View>
   )
 }
