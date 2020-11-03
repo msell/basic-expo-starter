@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
-import { Ball } from './components/Ball'
+import { Ball } from '~/components/Ball'
 
 export default function App(): JSX.Element {
   return (
